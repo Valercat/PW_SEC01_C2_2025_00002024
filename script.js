@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function EditarTitulo() {
     const titulo = document.querySelector(".header-principal");
     if (titulo) {
-      const nuevoTitulo = prompt("Ingrese el nuevo título del libro:", titulo.textContent);
+      const nuevoTitulo = prompt(
+        "Ingrese el nuevo título del libro:",
+        titulo.textContent
+      );
       if (nuevoTitulo !== null && nuevoTitulo.trim() !== "") {
         titulo.textContent = nuevoTitulo;
         titulo.classList.toggle("titulo-editado");
@@ -17,7 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function CambiarFuenteSubtitulo() {
-    const subtituloFuente = document.querySelector(".descripcion-contenido-libro");
+    const subtituloFuente = document.querySelector(
+      ".descripcion-contenido-libro"
+    );
     if (subtituloFuente) {
       subtituloFuente.classList.toggle("subtitulo-fuente");
     }
