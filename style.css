@@ -9,6 +9,7 @@
   align-items: flex-start;
 }
 
+
 aside.datos-libro {
   width: 80%;
   box-sizing: border-box;
@@ -44,4 +45,15 @@ section.descripcion-contenido-libro {
   margin-bottom: 10px;
   width: 45%;
   align-items: start;
+}
+
+.footer-botones {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 90%;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
