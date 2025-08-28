@@ -1,21 +1,26 @@
 .header-principal {
   text-align: center;
   font-size: 90%;
+  background-color: rgb(196, 229, 230);
 }
 
 .contenedor-libro {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  background-color: rgb(192, 228, 230);
 }
-
 
 aside.datos-libro {
   width: 80%;
+  height: auto;
   box-sizing: border-box;
   font-size: 82%;
   align-items: start;
   text-align: justify;
+  background-color: rgba(218, 194, 241, 0.941);
+  border: none;
+  padding: 10px 20px;
 }
 
 section.descripcion-contenido-libro {
@@ -23,6 +28,9 @@ section.descripcion-contenido-libro {
   font-size: 86%;
   text-align: justify;
   width: 80%;
+  background-color: rgba(218, 194, 241, 0.941);
+  border: none;
+  padding: 10px 20px;
 }
 
 .parrafos-contenido {
@@ -56,4 +64,41 @@ section.descripcion-contenido-libro {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: rgb(192, 228, 230);
+  padding: 10px;
+  button {
+    background-color: rgb(218, 90, 158);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 90%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+}
+
+.imagen-libro {
+  display: block;
+  margin: 10px auto;
+  width: 10em;
+  height: 10em;
+}
+
+.cambiar-formato .parrafos-contenido {
+  padding-left: 10px;
+  flex-direction: column;
+}
+.cambiar-formato .parrafo1 {
+  text-align: justify;
+  margin-top: -10px;
+  width: 90%;
+}
+.cambiar-formato .parrafo2-3 {
+  text-align: justify;
+  border-width: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  margin-top: -35px;
+  padding-left: 10px;
 }
