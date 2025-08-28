@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function CambiarFuenteSubtitulo() {
-    // Your code here
+    const subtituloFuente = document.querySelector(".descripcion-contenido-libro");
+    if (subtituloFuente) {
+      subtituloFuente.classList.toggle("subtitulo-fuente");
+    }
   }
 
   function AgregarImagen() {
