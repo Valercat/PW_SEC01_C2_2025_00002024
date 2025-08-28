@@ -1,0 +1,46 @@
+.header-principal {
+  text-align: center;
+  font-size: 90%;
+}
+
+.contenedor-libro {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+aside.datos-libro {
+  width: 200%;
+  box-sizing: border-box;
+  font-size: 82%;
+  align-items: start;
+  text-align: justify;
+}
+
+section.descripcion-contenido-libro {
+  box-sizing: border-box;
+  font-size: 86%;
+  text-align: justify;
+}
+
+.parrafos-contenido {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+
+.parrafo1 {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 45%;
+  padding: 10px;
+}
+
+.parrafo2-3 {
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 45%;
+  align-items: start;
+}
