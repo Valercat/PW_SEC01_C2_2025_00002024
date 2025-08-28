@@ -102,3 +102,10 @@ section.descripcion-contenido-libro {
   margin-top: -35px;
   padding-left: 10px;
 }
+
+.titulo-editado{
+  font-size: 150%;
+  text-align: center;
+  color: rgb(218, 90, 158);
+  background-color: rgba(218, 194, 241, 0.941);
+}

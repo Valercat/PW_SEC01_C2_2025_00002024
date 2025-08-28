@@ -6,7 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   function EditarTitulo() {
-    // Your code here
+    const titulo = document.querySelector(".header-principal");
+    if (titulo) {
+      const nuevoTitulo = prompt("Ingrese el nuevo título del libro:", titulo.textContent);
+      if (nuevoTitulo !== null && nuevoTitulo.trim() !== "") {
+        titulo.textContent = nuevoTitulo;
+        titulo.classList.toggle("titulo-editado");
+      }
+    }
   }
 
   function CambiarFuenteSubtitulo() {
