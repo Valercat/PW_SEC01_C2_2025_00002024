@@ -10,7 +10,7 @@
 }
 
 aside.datos-libro {
-  width: 200%;
+  width: 80%;
   box-sizing: border-box;
   font-size: 82%;
   align-items: start;
@@ -21,6 +21,7 @@ section.descripcion-contenido-libro {
   box-sizing: border-box;
   font-size: 86%;
   text-align: justify;
+  width: 80%;
 }
 
 .parrafos-contenido {
